@@ -260,6 +260,24 @@ body {
 }
 .gwd-span-s4gf {
     font-size: 350px;
+}
+.gwd-h1-mr44 {
+    position: absolute;
+    left: 65px;
+    top: 747px;
+    font-family: "Trebuchet MS";
+}
+.gwd-span-s4dq {
+    font-size: 50px;
+}
+.gwd-h1-1etw {
+    position: absolute;
+    font-family: "Trebuchet MS";
+    left: 72px;
+    top: 699px;
+}
+.gwd-span-xcil {
+    font-size: 50px;
 }</style>
   <link href="https://fonts.googleapis.com/css?family=Inconsolata:regular" rel="stylesheet" type="text/css">
   <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
@@ -291,6 +309,26 @@ body {
       // GWD Predefined Function
       gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_3', 'slide', 1000, 'linear', 'bottom');
     };
+    gwd.auto_CommandpageswapClick1 = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'slide', 1000, 'linear', 'bottom');
+    };
+    gwd.auto_VersionpageswapClick = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'slide', 1000, 'linear', 'bottom');
+    };
+    gwd.auto_CommandpageswapClick2 = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'slide', 1000, 'linear', 'bottom');
+    };
+    gwd.auto_VersionpageswapClick1 = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'slide', 1000, 'linear', 'bottom');
+    };
+    gwd.auto_Goback0Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1', 'slide', 1000, 'linear', 'top');
+    };
   </script>
   <script type="text/javascript" gwd-events="registration">
     // Support code for event handling in Google Web Designer
@@ -301,6 +339,11 @@ body {
       gwd.actions.events.addHandler('goback2', 'click', gwd.auto_Goback2Click, false);
       gwd.actions.events.addHandler('goback1', 'click', gwd.auto_Goback1Click, false);
       gwd.actions.events.addHandler('infopageswap', 'click', gwd.auto_InfopageswapClick, false);
+      gwd.actions.events.addHandler('commandpageswap', 'click', gwd.auto_CommandpageswapClick1, false);
+      gwd.actions.events.addHandler('versionpageswap', 'click', gwd.auto_VersionpageswapClick, false);
+      gwd.actions.events.addHandler('commandpageswap', 'click', gwd.auto_CommandpageswapClick2, false);
+      gwd.actions.events.addHandler('versionpageswap', 'click', gwd.auto_VersionpageswapClick1, false);
+      gwd.actions.events.addHandler('goback0', 'click', gwd.auto_Goback0Click, false);
     };
     gwd.actions.events.deregisterEventHandlers = function(event) {
       gwd.actions.events.removeHandler('versionpageswap', 'click', gwd.auto_TheVersionClick, false);
@@ -308,6 +351,11 @@ body {
       gwd.actions.events.removeHandler('goback2', 'click', gwd.auto_Goback2Click, false);
       gwd.actions.events.removeHandler('goback1', 'click', gwd.auto_Goback1Click, false);
       gwd.actions.events.removeHandler('infopageswap', 'click', gwd.auto_InfopageswapClick, false);
+      gwd.actions.events.removeHandler('commandpageswap', 'click', gwd.auto_CommandpageswapClick1, false);
+      gwd.actions.events.removeHandler('versionpageswap', 'click', gwd.auto_VersionpageswapClick, false);
+      gwd.actions.events.removeHandler('commandpageswap', 'click', gwd.auto_CommandpageswapClick2, false);
+      gwd.actions.events.removeHandler('versionpageswap', 'click', gwd.auto_VersionpageswapClick1, false);
+      gwd.actions.events.removeHandler('goback0', 'click', gwd.auto_Goback0Click, false);
     };
     document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
     document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
@@ -320,17 +368,18 @@ body {
     <gwd-pagedeck class="gwd-page-container" id="pagedeck">
       <gwd-page id="page1" class="gwd-page-wrapper gwd-page-size gwd-lightbox gwd-page-1fa7" data-gwd-width="1920px" data-gwd-height="1080px" data-gwd-name="home">
         <div class="gwd-page-content gwd-page-size">
-          <gwd-image id="dog" source="dog.png?1593229100918" scaling="stretch" class="gwd-image-14bg"></gwd-image>
+          <gwd-image id="dog" source="dog.png?1593297082330" scaling="stretch" class="gwd-image-14bg"></gwd-image>
           <h3 class="gwd-h1-199c"><span class="gwd-span-1iqq">Shaboom Bot</span><br></h3>
           <h1 class="gwd-h1-1oaw" id="infopageswap"><span class="gwd-span-fr1m">Info About Shaboom Bot</span><br></h1>
           <h1 class="gwd-h1-b9e1" id="commandpageswap">The Commands</h1>
-          <h1 class="gwd-h1-het5" id="versionpageswap">The Version</h1></div>
+          <h1 class="gwd-h1-het5" id="versionpageswap">The Version</h1>
+          <h1 class="gwd-h1-1etw" id="suggest"><span class="gwd-span-xcil"><a href="https://forms.gle/De7vEiSHNva42cvXA" target="_blank">Suggest New Ideas</a></span><br></h1></div>
       </gwd-page>
       <gwd-page id="page1_2" class="gwd-page-wrapper gwd-lightbox gwd-page-nldm" data-gwd-width="1920px" data-gwd-height="1080px" data-gwd-name="commands">
         <div class="gwd-page-content gwd-div-1pai">
           <h1 class="gwd-h1-4les text-tool-feedback"><span class="gwd-span-quhr">The Commands</span><br></h1>
           <h1 class="gwd-h1-tps6 text-tool-feedback"><span class="gwd-span-2a6o">The Commands :<br></span><span class="gwd-span-fxgr">Cpada<br></span><span class="gwd-span-19yv">author<br>karen<br>version<br>fivem<br>logs<br>snacc<br>mom<br>kaden<br>thanks</span></h1>
-          <gwd-image id="dog_2_1" source="dog_2.png?1593229100918" scaling="stretch" class="gwd-image-1usq"></gwd-image>
+          <gwd-image id="dog_2_1" source="dog_2.png?1593297082330" scaling="stretch" class="gwd-image-1usq"></gwd-image>
           <h1 class="gwd-h1-1506 text-tool-feedback" id="goback2"><span class="gwd-span-m634">Go Back</span><br></h1></div>
       </gwd-page>
       <gwd-page id="page1_1" class="gwd-page-wrapper gwd-lightbox gwd-page-wjwy" data-gwd-width="1920px" data-gwd-height="1080px" data-gwd-name="version">
@@ -338,14 +387,15 @@ body {
           <h1 class="gwd-h1-t9kj text-tool-feedback"><span class="gwd-span-ywil">The Version</span><br></h1>
           <h1 class="gwd-h1-3y66 text-tool-feedback">The Current Version Is</h1>
           <h1 class="gwd-h1-11dr text-tool-feedback">Pre - Alpha 0.2.4</h1>
-          <gwd-image id="dog_1" source="dog_1.png?1593229100918" scaling="stretch" class="gwd-image-ik4o"></gwd-image>
-          <gwd-image id="dog_2" source="1_dog_2.png?1593229100918" scaling="stretch" class="gwd-image-ry4w"></gwd-image>
+          <gwd-image id="dog_1" source="dog_1.png?1593297082330" scaling="stretch" class="gwd-image-ik4o"></gwd-image>
+          <gwd-image id="dog_2" source="1_dog_2.png?1593297082330" scaling="stretch" class="gwd-image-ry4w"></gwd-image>
           <h1 class="gwd-h1-1tzw text-tool-feedback" id="goback1">Go back</h1></div>
       </gwd-page>
       <gwd-page id="page1_3" class="gwd-page-wrapper gwd-lightbox gwd-page-1esh" data-gwd-width="1920px" data-gwd-height="1080px" data-gwd-name="info">
         <div class="gwd-page-content gwd-div-wvnj">
           <h1 class="gwd-h1-18w1"><span class="gwd-span-25mg">Info about Shaboom Bot</span><br></h1>
-          <h1 class="gwd-h1-1mml"><span class="gwd-span-s4gf">e girls are boys</span><br></h1></div>
+          <h1 class="gwd-h1-1mml"><span class="gwd-span-s4gf">e girls are boys</span><br></h1>
+          <h1 class="gwd-h1-mr44" id="goback0"><span class="gwd-span-s4dq">go back</span><br></h1></div>
       </gwd-page>
     </gwd-pagedeck>
   </gwd-google-ad>

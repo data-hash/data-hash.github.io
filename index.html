@@ -254,6 +254,24 @@
     .gwd-span-s4gf {
       font-size: 350px;
     }
+    .gwd-h1-mr44 {
+      position: absolute;
+      left: 65px;
+      top: 747px;
+      font-family: "Trebuchet MS";
+    }
+    .gwd-span-s4dq {
+      font-size: 50px;
+    }
+    .gwd-h1-1etw {
+      position: absolute;
+      font-family: "Trebuchet MS";
+      left: 72px;
+      top: 699px;
+    }
+    .gwd-span-xcil {
+      font-size: 50px;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900" rel="stylesheet" type="text/css">
   <script data-source="googbase_min.js" data-version="4" data-exports-type="googbase" src="googbase_min.js"></script>
@@ -293,6 +311,18 @@
       // GWD Predefined Function
       gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'slide', 1000, 'linear', 'bottom');
     };
+    gwd.auto_CommandpageswapClick2 = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_2', 'slide', 1000, 'linear', 'bottom');
+    };
+    gwd.auto_VersionpageswapClick1 = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1_1', 'slide', 1000, 'linear', 'bottom');
+    };
+    gwd.auto_Goback0Click = function(event) {
+      // GWD Predefined Function
+      gwd.actions.gwdPagedeck.goToPage('pagedeck', 'page1', 'slide', 1000, 'linear', 'top');
+    };
   </script>
   <script type="text/javascript" gwd-events="registration">
     // Support code for event handling in Google Web Designer
@@ -305,6 +335,9 @@
       gwd.actions.events.addHandler('infopageswap', 'click', gwd.auto_InfopageswapClick, false);
       gwd.actions.events.addHandler('commandpageswap', 'click', gwd.auto_CommandpageswapClick1, false);
       gwd.actions.events.addHandler('versionpageswap', 'click', gwd.auto_VersionpageswapClick, false);
+      gwd.actions.events.addHandler('commandpageswap', 'click', gwd.auto_CommandpageswapClick2, false);
+      gwd.actions.events.addHandler('versionpageswap', 'click', gwd.auto_VersionpageswapClick1, false);
+      gwd.actions.events.addHandler('goback0', 'click', gwd.auto_Goback0Click, false);
     };
     gwd.actions.events.deregisterEventHandlers = function(event) {
       gwd.actions.events.removeHandler('versionpageswap', 'click', gwd.auto_TheVersionClick, false);
@@ -314,6 +347,9 @@
       gwd.actions.events.removeHandler('infopageswap', 'click', gwd.auto_InfopageswapClick, false);
       gwd.actions.events.removeHandler('commandpageswap', 'click', gwd.auto_CommandpageswapClick1, false);
       gwd.actions.events.removeHandler('versionpageswap', 'click', gwd.auto_VersionpageswapClick, false);
+      gwd.actions.events.removeHandler('commandpageswap', 'click', gwd.auto_CommandpageswapClick2, false);
+      gwd.actions.events.removeHandler('versionpageswap', 'click', gwd.auto_VersionpageswapClick1, false);
+      gwd.actions.events.removeHandler('goback0', 'click', gwd.auto_Goback0Click, false);
     };
     document.addEventListener("DOMContentLoaded", gwd.actions.events.registerEventHandlers);
     document.addEventListener("unload", gwd.actions.events.deregisterEventHandlers);
@@ -330,7 +366,8 @@
           <h3 class="gwd-h1-199c"><span class="gwd-span-1iqq">Shaboom Bot</span><br></h3>
           <h1 class="gwd-h1-1oaw" id="infopageswap"><span class="gwd-span-fr1m">Info About Shaboom Bot</span><br></h1>
           <h1 class="gwd-h1-b9e1" id="commandpageswap">The Commands</h1>
-          <h1 class="gwd-h1-het5" id="versionpageswap">The Version</h1></div>
+          <h1 class="gwd-h1-het5" id="versionpageswap">The Version</h1>
+          <h1 class="gwd-h1-1etw" id="suggest"><span class="gwd-span-xcil"><a href="https://forms.gle/De7vEiSHNva42cvXA" target="_blank">Suggest New Ideas</a></span><br></h1></div>
       </gwd-page>
       <gwd-page id="page1_2" class="gwd-page-wrapper gwd-lightbox gwd-page-nldm" data-gwd-width="1920px" data-gwd-height="1080px" data-gwd-name="commands">
         <div class="gwd-page-content gwd-div-1pai">
@@ -351,7 +388,8 @@
       <gwd-page id="page1_3" class="gwd-page-wrapper gwd-lightbox gwd-page-1esh" data-gwd-width="1920px" data-gwd-height="1080px" data-gwd-name="info">
         <div class="gwd-page-content gwd-div-wvnj">
           <h1 class="gwd-h1-18w1"><span class="gwd-span-25mg">Info about Shaboom Bot</span><br></h1>
-          <h1 class="gwd-h1-1mml"><span class="gwd-span-s4gf">e girls are boys</span><br></h1></div>
+          <h1 class="gwd-h1-1mml"><span class="gwd-span-s4gf">e girls are boys</span><br></h1>
+          <h1 class="gwd-h1-mr44" id="goback0"><span class="gwd-span-s4dq">go back</span><br></h1></div>
       </gwd-page>
     </gwd-pagedeck>
   </gwd-google-ad>
