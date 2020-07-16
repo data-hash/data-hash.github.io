@@ -10,7 +10,7 @@ Settings
 	background: https://data-hash.github.io/test.jpg
 	building cost increase:115%
 	building cost refund:75%
-	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
+	spritesheet:icons, 48 by 48, https://data-hash.github.io/sprite1.jpg
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -18,7 +18,7 @@ Layout
 		
 Buttons
 	*bunnyButton
-		name:Make a bunny
+		name:Make a video.
 		desc:Click this little bunny to get more bunnies!
 		on click:anim icon wobble
 		on click:yield 1 bunny
