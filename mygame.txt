@@ -19,11 +19,11 @@ Layout
 Buttons
 	*bunnyButton
 		name:Make a video.
-		desc:Click this little bunny to get more bunnies!
+		desc:Click this little Youtube™ to make more videos!
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:stuff/bunny.png
+		icon: https://data-hash.github.io/youtube.jpg
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
