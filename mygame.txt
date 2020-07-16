@@ -10,7 +10,7 @@ Settings
 	background: https://data-hash.github.io/test.jpg
 	building cost increase:115%
 	building cost refund:75%
-	spritesheet:icons, 48 by 48, https://data-hash.github.io/sprite1.jpg
+	spritesheet:icons, 48 by 48, https://data-hash.github.io/viewers.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon: https://data-hash.github.io/youtube.jpg
+		icon: https://data-hash.github.io/256px-Youtube_icon.jpg
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
