@@ -32,15 +32,15 @@ Buttons
 		
 Resources
 	*bunny|bunnies
-		name:Bunny|Bunnies
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		name:Bunny|Viewers
+		desc:These are your Youtube™ viewers. You can use them to purchase things. Your goal is to have as many viewers as possible!
 		icon:icons[0,0]
 		class:noBackground
 		show earned
 		
 	*goldenCarrot|goldenCarrots
-		name:Golden carrot|Golden carrots
-		desc:These shiny carrots are terribly rare, terribly precious and terribly delicious!
+		name:Golden carrot|Shoutouts
+		desc:These shoutouts are rare, terribly precious!
 		icon:icons[0,1]
 		class:noBackground
 		hidden when 0
