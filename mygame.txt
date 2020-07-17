@@ -89,16 +89,16 @@ Buildings
 		req:100 viewers:earned
 	
 	*coop|coops
-		name:Rabbit coop|Rabbit coops
-		desc:A much nicer rabbit home where full viewer families can live.<//><b>Effect:</b><.>Produces 5 rabbits per second.
+		name:Gang Beast video|Gang Beast Videos
+		desc:A video on the game Gang beasts, it is semi popular.<//><b>Effect:</b><.>Produces 5 rabbits per second.
 		icon:icons[3,2]
 		cost:600 viewers
 		on tick:yield 5 viewers
 		req:600 viewers:earned
 	
 	*pen|pens
-		name:Rabbit pen|Rabbit pens
-		desc:A lovely enclosure with plenty of green space.<//><b>Effect:</b><.>Produces 12 rabbits per second.
+		name:Human fall flat video|Human Fall Flat videos
+		desc:A video on the interactive game Human Fall Flat.<//><b>Effect:</b><.>Produces 12 rabbits per second.
 		icon:icons[3,3]
 		cost:4000 viewers
 		on tick:yield 12 viewers
@@ -155,32 +155,32 @@ Upgrades
 	//inspiration : http://rabbit.org/suggested-vegetables-and-fruits-for-a-rabbit-diet/
 	
 	*parsley
-		name:Parsley
-		desc:A nice little supplement to your viewers' diet.<//><b>Effect:</b><.>+1 viewer/click
+		name:Tags
+		desc:An easier way to find you using tags and hashtags.<//><b>Effect:</b><.>+1 viewer/click
 		icon:icons[1,1]
 		cost:100 viewers
 		passive:increase viewer yield of viewerButton by 1
 		req:10 viewers:earned
 		
 	*spinach
-		name:Spinach
-		desc:Big tasty leaves, perfect for hungry viewers.<//><b>Effect:</b><.>+1 viewer/click
+		name:Catchy thumbnails
+		desc:Big thumbnails that pop out to the viewer, they will click on it.<//><b>Effect:</b><.>+1 viewer/click
 		icon:icons[1,2]
 		cost:200 viewers
 		passive:increase viewer yield of viewerButton by 1
 		req:50 viewers:earned
 		
 	*lettuce
-		name:Lettuce
-		desc:Frilly greens loved by all viewers.<//><b>Effect:</b><.>+1 viewer/click
+		name:Media coverage
+		desc:Only one media outlet covers you.<//><b>Effect:</b><.>+1 viewer/click
 		icon:icons[1,3]
 		cost:400 viewers
 		passive:increase viewer yield of viewerButton by 1
 		req:200 viewers:earned
 		
 	*broccoli
-		name:Broccoli
-		desc:Crunchy greens that look like little trees.<//><b>Effect:</b><.>viewers/click x2<.>viewer production +5%
+		name:More Media Coverage
+		desc:Some articles are citing you now.<//><b>Effect:</b><.>viewers/click x2<.>viewer production +5%
 		icon:icons[1,4]
 		cost:3000 viewers
 		passive:multiply viewer yield of viewerButton by 2
@@ -188,8 +188,8 @@ Upgrades
 		req:1000 viewers:earned
 		
 	*apple
-		name:Apple
-		desc:Nice pieces of juicy red apples.<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
+		name:Covered in meme review
+		desc:You were covered in Pewdiepie's meme reveiew.<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
 		icon:icons[1,5]
 		cost:10000 viewers
 		passive:multiply viewer yield of viewerButton by 1.5
@@ -197,8 +197,8 @@ Upgrades
 		req:1000 viewers:earned
 		
 	*radish
-		name:Radish
-		desc:Purple, crunchy, and strangely spicy.<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
+		name:TV Appearences
+		desc:You are featured on tv, very little people know you still.<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
 		icon:icons[1,6]
 		cost:50000 viewers
 		passive:multiply viewer yield of viewerButton by 1.5
@@ -206,8 +206,8 @@ Upgrades
 		req:10000 viewers:earned
 		
 	*mint
-		name:Mint
-		desc:Tasty, and gives your viewers a lovely breath.<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
+		name:Sponsors
+		desc:RAID SHADOW LEGENDS.<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
 		icon:icons[1,7]
 		cost:100000 viewers
 		passive:multiply viewer yield of viewerButton by 1.5
@@ -215,8 +215,8 @@ Upgrades
 		req:50000 viewers:earned
 		
 	*chard
-		name:Chard
-		desc:Broad leaves that make for a tasty salad.<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
+		name:Youtube Verified
+		desc:You got verified on Youtube.<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
 		icon:icons[1,8]
 		cost:500000 viewers
 		passive:multiply viewer yield of viewerButton by 1.5
@@ -224,8 +224,8 @@ Upgrades
 		req:100000 viewers:earned
 		
 	*cherry
-		name:Cherry
-		desc:Your viewers look like little vampires when they start munching on these!<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
+		name:Youtube Original Series
+		desc:You get your own Original Series sponsored by Youtube!<//><b>Effect:</b><.>viewers/click x1.5<.>viewer production +5%
 		icon:icons[1,9]
 		cost:1000000 viewers
 		passive:multiply viewer yield of viewerButton by 1.5
@@ -233,8 +233,8 @@ Upgrades
 		req:500000 viewers:earned
 		
 	*carrot
-		name:Carrot
-		desc:The quintessential rabbit food! Crunchy, orange, and perfect.<//><b>Effect:</b><.>viewers/click x2<.>viewer production +10%
+		name:Face Of Youtube
+		desc:When people say Youtuber the first thing in someones head is your face.<//><b>Effect:</b><.>viewers/click x2<.>viewer production +10%
 		icon:icons[1,0]
 		cost:100000000 viewers
 		passive:multiply viewer yield of viewerButton by 2
