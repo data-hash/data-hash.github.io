@@ -1,4 +1,4 @@
-Let's make a game! //the pastebin link https://pastebin.com/Z04e6JRL
+Let's make a game!
 	name:CPADA Clicker
 	by:Data-Hash
 	desc:This is CPADA Clicker, a game about clicking and getting viewers.<//>Get the most viewers!
