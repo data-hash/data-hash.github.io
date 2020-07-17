@@ -9,7 +9,7 @@ Let's make a game! //the pastebin link https://pastebin.com/Z04e6JRL
 Settings
 	background: https://data-hash.github.io/test.jpg
 	building cost increase:115%
-	building cost refund:75%
+	building cost refund:75% //the pastebin link https://pastebin.com/Z04e6JRL
 	spritesheet:icons, 48 by 48, https://data-hash.github.io/sprites.png
 	stylesheet:stuff/bigBlue.css
 
