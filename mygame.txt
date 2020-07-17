@@ -75,7 +75,7 @@ Buildings
 	*cage|cages
 		name:Minecraft Video|Minecraft Videos
 		desc:A Minecraft video that generates you viewers.<//><b>Effect:</b><.>Produces 1 viewer every 10 seconds.
-		icon:icons[3,0]
+		icon: https://data-hash.github.io/minecraftlogo.png
 		cost:15 viewers
 		on tick:yield 0.1 viewer
 		unlocked
