@@ -3,8 +3,8 @@ Let's make a game!
 	by:Data-Hash
 	desc:This is CPADA Clicker, a game about clicking and getting viewers.<//>Get the most viewers!
 	created:7/16/2020
-	updated:24/10/2017
-	version:0.1
+	updated:7/17/2020
+	version:1
 
 Settings
 	background: https://data-hash.github.io/test.jpg
